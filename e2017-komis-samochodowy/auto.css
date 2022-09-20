@@ -1,0 +1,57 @@
+#baner
+{
+	background-color: #45517D;
+	color: white;
+	font-size: 120%;
+	text-align: right;
+	height: 60px;
+}
+
+#panel_lewy
+{
+	background-color: #61B2FC;
+	width: 40%;
+	height: 500px;
+	float: left;
+}
+
+#panel_prawy
+{
+	background-color: #8EC9F2;
+	width: 60%;
+	height: 500px;
+	float: left;
+}
+
+#stopka
+{
+	background-color: #45517D;
+	color: #white;
+	font-size: 150%;
+	text-align: center;
+	clear: both;
+	height: 60px;
+}
+
+img
+{
+  height: 50px;
+  width: 100px;
+}
+
+a:link
+{
+	color: orange;
+}
+
+a:visited
+{
+	color: green;
+}
+
+table
+{
+	width: 100%;
+	color: white;
+	text-align: center;
+}
