@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="muzyka.css">
+    <title>Sklep Muzyczny</title>
+</head>
+<body>
+    <div class="banner">
+        <h1>SKLEP MUZYCZNY</h1>
+    </div>
+    <div class="container">
+        <div class="leftPanel">
+            <h2>NASZA OFERTA</h2>
+            <ol>
+                <li>Instrumenty muzyczne</li>
+                <li>Sprzęt audio</li>
+                <li>Płyty CD</li>
+            </ol>
+        </div>
+        <div class="rightPanel">
+            <h2>FORMULARZ REJESTRACYJNY</h2>
+            <form method="POST" action="formularz.php">
+                <p>Dane Osobowe</p>
+                
+                <label>Imię</label>
+                <br>
+                <input name="name" type="text">
+                <br>
+                <label>Nazwisko</label>
+                <br>
+                <input name="surname" type="text">
+                <br>
+                <label>Adres</label>
+                <br>
+                <input name="address" type="text">
+                <br>
+                <label>Numer Telefonu</label>
+                <br>
+                <input name="phone" type="text">
+                <hr>
+                <p>Dane Logowania</p>
+                <br>
+                <label>Login</label>
+                <br>
+                <input name="login" type="text">
+                <br>
+                <label>Hasło</label>
+                <br>
+                <input name="password" type="password">
+                <br>
+                <br>
+                <br>
+                <input name="checkbox" type="checkbox" checked>Akceptuję regulamin sklepu</input>
+                <br>
+                <br>
+                <input name="clear" type="reset"><input name="submit" type="submit" id="submit" >
+            </form>
+        </div>
+    </div>
+</body>
+</html>

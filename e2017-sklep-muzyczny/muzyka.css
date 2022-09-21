@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    width: 100%;
+    flex: 0;
+    background-color: #812F8D;
+    color: white;
+    font-size: 200%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.leftPanel {
+    background-color: #BB74C4;
+    color: white;
+    width: 25%;
+    height: 100%;
+}
+
+.leftPanel h2 {
+    text-align: center;
+}
+
+.rightPanel {
+    width: 75%;
+}
+
+.rightPanel h2 {
+    text-align: center;
+}
+
+.rightPanel form {
+    padding: 10px
+}
+
+.rightPanel form input {
+    margin-bottom: 10px;
+}
+
+.rightPanel form p {
+    font-weight: bold;
+}
+
+#sumbmit {
+    pointer-events: none;
+    color: white
+}
+
+#chck:checked #sumbmit {
+    pointer-events: all;color: black
+}
