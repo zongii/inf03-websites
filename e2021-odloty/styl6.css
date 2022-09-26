@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background-color: rgb(244,164,96);
+    color: white;
+}
+
+p {
+    font-size: 150%;
+    border: 2px dotted rgb(169, 169, 169)
+}
+
+p:hover {
+    background-color: rgb(169, 169, 169)
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid rgb(192,192,192);
+    padding: 5px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+}
+
+.bannerText {
+    width: 75%;
+    height: 150px;
+    font-size: 200%;
+}
+
+.bannerLogo {
+    width: 25%;
+    height: 75%;
+}
+
+.mainContainer {
+    background-color: rgb(128, 0, 0);
+    padding: 50px;
+    text-transform: uppercase;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerBlock1, .footerBlock3 {
+    width: 20%;
+    padding-top: 90px;
+}
+
+.footerBlock2 {
+    width: 60%;
+    text-align: center;
+}
