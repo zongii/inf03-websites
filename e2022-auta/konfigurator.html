@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl6.css">
+    <script src="script.js" defer></script>
+    <title>Style w JavaScript</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="leftBlock">
+            <h1>Konfigurator styl</h1>
+            <p>Podaj kolor tła</p>
+            <br>
+            <button onclick="changeBackground('indigo')" id="indigo">Indigo</button>
+            <button onclick="changeBackground('steelblue')" id="steelblue">SteelBlue</button>
+            <button onclick="changeBackground('olive')" id="olive">Olive</button>
+
+
+            <p>Podaj kolor czcionki</p>
+            <br>
+            <select onchange="changeFontColor(event)">
+                <option>White</option>
+                <option>Tan</option>
+                <option>Bisque</option>
+                <option>Plum</option>
+            </select>
+
+            <p>Podaj rozmiar czcionki w procentach, np 200%</p>
+            <br>
+            <input onchange="changeFontSize(event)" type="text" value="100%">
+
+            <p>Czy rysunek ma mieć ramkę?</p>
+            <br>
+            <input onclick="toggleBorder(event)" type="checkbox" checked>Rysuj ramkę</input>
+
+
+            <p>Jaki jest typ punktora listy?</p>
+            <br>
+            <input onchange="listRadio('disc')" type="radio" name="punktor" checked>dysk</input>
+            <input onchange="listRadio('square')" type="radio" name="punktor">kwadrat</input>
+            <input onchange="listRadio('circle')" type="radio" name="punktor">okrąg</input>
+        </div>
+        <div id="rightblock" class="rightBlock">
+            <img id="image" src="./gibraltar.jpg" alt="Półwysep Gibraltar">
+            <ul id="list">
+                <li>element 1</li>
+                <li>element 2</li>
+                <li>element 3</li>
+            </ul>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        Autor: 012345778890
+    </footer>
+</body>
+</html>

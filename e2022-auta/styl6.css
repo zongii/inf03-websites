@@ -1,0 +1,60 @@
+* {
+    font-family: Georgia;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftBlock {
+    background-color: maroon;
+    height: 600px;
+    width: 30%;
+    color: white
+}
+
+.rightBlock {
+    height: 600px;
+    width: 70%;
+    background-color: maroon;
+    color: white;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rightBlock p {
+    padding: 10px;
+    width: 100%;
+}
+
+.rightBlock img {
+    width:min-content;
+    height: min-content;
+    display: block;
+    padding: 10px;
+    border: 1px solid white
+}
+
+.footer {
+    background-color: dimgray;
+    color: white;
+}
+
+#indigo {
+    background-color: indigo;
+}
+
+#steelblue {
+    background-color: steelblue;
+}
+
+#olive {
+    background-color: olive;
+}
