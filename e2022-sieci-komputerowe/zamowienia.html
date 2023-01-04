@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl4.css">
+    <title>Zamówienia hurtowe</title>
+</head>
+<body>
+    <div class="banner">
+        <h1>Sieci komputerowe</h1>
+    </div>
+    <div class="mainContainer">
+        <div class="leftBlock">
+            <h2>Aktualizacja i zamówienia materiałów</h2>
+            <p>Do wewnętrzengo użytku firmy</p>
+            <img src="./obraz.png" alt="sieć komputerowa">
+        </div>
+        <div class="rightBlock">
+            <table>
+                <tr>
+                    <th>Produkt</th>
+                    <th>Jednostka</th>
+                    <th>Dostępna ilość</th>
+                    <th>Aktualziacja</th>
+                    <th>Zamówienie</th>
+                </tr>
+                <tr>
+                    <td class="productName">Skrętka U/UTP drut</td>
+                    <td>metr</td>
+                    <td class="productCount">20</td>
+                    <td><button onclick="updateHandle(0)">Aktualizuj</button></td>
+                    <td><button onclick="orderHandle(0)">Zamów</button></td>
+                </tr>
+                <tr>
+                    <td class="productName">Skrętka U/UTP linka</td>
+                    <td>metr</td>
+                    <td class="productCount">2</td>
+                    <td><button onclick="updateHandle(1)">Aktualizuj</button></td>
+                    <td><button onclick="orderHandle(1)">Zamów</button></td>
+                </tr>
+                <tr>
+                    <td class="productName">Wtyki 8P8C</td>
+                    <td>sztuki</td>
+                    <td class="productCount">10</td>
+                    <td><button onclick="updateHandle(2)">Aktualizuj</button></td>
+                    <td><button onclick="orderHandle(2)">Zamów</button></td>
+                </tr>
+                <tr>
+                    <td class="productName">Moduły Keystone</td>
+                    <td>sztuki</td>
+                    <td class="productCount">30</td>
+                    <td><button onclick="updateHandle(3)">Aktualizuj</button></td>
+                    <td><button onclick="orderHandle(3)">Zamów</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="http://sieci.pl/" target="_blank">Nasza strona internetowa</a>
+        <p>Stronę przygotował: 47192347432333</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
